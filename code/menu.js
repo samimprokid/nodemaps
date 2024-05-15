@@ -14,7 +14,7 @@ function openmenu() {
 // map settings
 const attribution = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 
-var map = L.map('map1').setView([59.745164250056135, 10.164131070531106], 15);
+var map = L.map('map1').setView([37.038, -95.010], 5);
 let marker = L.marker([59.745164250056135,10.164131070531106 ]).addTo(map)
 let tileURL =   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { }).addTo(map);
 const tiles =L.tileLayer(tileURL,{attribution})
